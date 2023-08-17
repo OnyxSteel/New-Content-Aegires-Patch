@@ -1,0 +1,31 @@
+"type": "flying",
+"name": "Surge",
+"description": "Fires shock bullets at enemy targets.",
+"flying": true,
+"health": 670,
+"armor": 2,
+"speed": 2.3,
+"weapons": [
+  {
+    "name": "none",
+    "x": 2,
+    "y": 1,
+    "reload": 50,
+    "mirror": true,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 3,
+      "lifetime": 50,
+      "damage": 33,
+      "lightning": 3,
+      "lightningDamage": 21,
+      "lightningLength": 5,
+      "trailLength": 3.8,
+      "trailEffect": {
+        "type": "ParticleEffect",
+        "colorFrom": FFD280,
+        "colorTo": D4816A,
+      },
+    },
+  },
+]
