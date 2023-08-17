@@ -23,8 +23,8 @@
       "trailLength": 3.8,
       "trailEffect": {
         "type": "ParticleEffect",
-        "colorFrom": FFD280,
-        "colorTo": D4816A,
+        "colorFrom": "FFD280",
+        "colorTo": "D4816A",
       },
     },
   },
