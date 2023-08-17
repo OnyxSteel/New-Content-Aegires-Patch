@@ -4,12 +4,12 @@
 "flying": true,
 "health": 670,
 "armor": 2,
-"speed": 2.3,
+"speed": 2.5,
 "weapons": [
   {
     "name": "none",
-    "x": 2,
-    "shootSound": "blaster",
+    "x": 3,
+    "shootSound": "shootAlt",
     "y": 1,
     "reload": 50,
     "mirror": true,
