@@ -1,5 +1,6 @@
 "type": "flying",
 "name": "Surge",
+"template": "ErekirUnitType",
 "description": "Fires shock bullets at enemy targets.",
 "flying": true,
 "health": 670,
