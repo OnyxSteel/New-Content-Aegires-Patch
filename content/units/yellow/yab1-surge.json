@@ -9,6 +9,7 @@
   {
     "name": "none",
     "x": 2,
+    "shootSound": "blaster",
     "y": 1,
     "reload": 50,
     "mirror": true,
