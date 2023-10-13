@@ -1,0 +1,55 @@
+type: tank
+template: TankUnitType
+crushDamage: 1
+hitSize: 12
+health: 530
+name: Quark
+armor: 4
+speed: 0.7
+faceTarget: false
+weapons: [
+{
+name: quark-weapon
+x: 0
+y: 0
+rotate: true
+mirror: false
+reload: 60
+bullet: {
+type: BasicBulletType
+damage: 65
+width: 15
+height: 25
+lifetime: 40
+frontColor: FFA585
+backColor: C71616
+speed: 4
+despawnEffect: {
+type: MultiEffect
+effects: [
+{
+type: ExplosionEffect
+waveRad: 32
+sparks: 4
+sparkColor: FFA585
+waveColor: FF3333
+smokes: 0
+}
+]
+}
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: ExplosionEffect
+waveRad: 32
+sparks: 4
+sparkColor: FFA585
+waveColor: FF3333
+smokes: 0
+}
+]
+}
+}
+}
+]
