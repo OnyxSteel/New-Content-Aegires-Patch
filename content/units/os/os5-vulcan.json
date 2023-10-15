@@ -1,12 +1,12 @@
 {
-"localizedName": "Cast",
+"localizedName": "Vulcan",
 "research": {
-	"parent": "os3-kiln",
+	"parent": "os4-cast",
 	"requirements": [
-	"silicon/1255",
-	"titanium/355",
-	"graphite/225",
-	"lead/1000"
+	"silicon/2500",
+	"titanium/1340",
+	"graphite/800",
+	"lead/2500"
 	]
 }
 "description": "Fires a constant stream of melting flame and bursts of bullets at targets.",
