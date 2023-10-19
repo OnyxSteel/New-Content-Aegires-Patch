@@ -8,7 +8,7 @@ size: 3
   health: 495
   plans: [
 {
-unit: flame
+unit: os1-flame
   time: 840
 requirements: [
   silicon/15
