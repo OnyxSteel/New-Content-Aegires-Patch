@@ -14,7 +14,7 @@
 "speed": 0.5,
 "flying": false,
 "targetAir": true,
-"health": 345,
+"health": 320,
 "immunities": [
 		"burning"
 		],
@@ -27,7 +27,9 @@
   "reload": 20,
   "recoil": 2,
   "top": false,
-  "shots": 3,
+  "shoot": {
+	  "shots": 3
+  },
   "shootSound": "spark",
   "ejectEffect": "none",
   "shake": 3,
@@ -36,7 +38,7 @@
             "lightningColor": "BF92F9",
 			"damage": 6,
 			"lightning": 0,
-            "lightningLength": 6,
+            "lightningLength": 8,
             "lightningLengthRand": 1,
 			"status": "sapped",
 			"statusDuration": 100
