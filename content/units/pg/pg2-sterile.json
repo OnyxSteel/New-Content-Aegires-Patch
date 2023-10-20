@@ -8,9 +8,9 @@
 	"lead/120"
 	]
 }
-"description": "Fires Large energy bombs at all nearby enemies.",
+"description": "Fires large energy bombs at all nearby enemies.",
 "type": "mech",
-"armor": 2,
+"armor": 4,
 "commandLimit": 6,
 "speed": 0.5,
 "flying": false,
