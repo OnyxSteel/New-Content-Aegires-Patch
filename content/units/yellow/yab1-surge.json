@@ -9,18 +9,18 @@
 "weapons": [
   {
     "name": "none",
-    "x": 3,
+    "x": 3.3,
     "shootSound": "shootAlt",
     "y": 1,
-    "reload": 50,
+    "reload": 33,
     "mirror": true,
     "bullet": {
       "type": "BasicBulletType",
       "speed": 3,
-      "lifetime": 50,
-      "damage": 33,
-      "lightning": 3,
-      "lightningDamage": 21,
+      "lifetime": 55,
+      "damage": 27,
+      "lightning": 4,
+      "lightningDamage": 17,
       "lightningLength": 5,
       "trailLength": 3.8,
       "trailEffect": {
