@@ -28,7 +28,7 @@
 "speed": 1,
 	"hitSize": 27.5,
 "flying": false,
-"health": 9000,
+"health": 8100,
 "rotateShooting": false,
 "hovering": true,
 "shadowElevation": 0.72,
@@ -104,26 +104,26 @@
 	  "y": -3,
 	  "reload": 35,
 	  "recoil": 3,
-	  "inaccuracy": 1.5
+	  "inaccuracy": 3
 	  "shake": 5
 	  "shoot": {
-    "shots": 3,
-    "shotDelay": 2
+    "shots": 4,
+    "shotDelay": 1
   }
 	  "shootSound": "shootSnap",
 	  "top": true,
 	  "ejectEffect": "casing2",
 	  "bullet": {
 		  "type": "BasicBulletType",
-		  "damage": 30,
+		  "damage": 27,
       "height": 25,
       "width": 10,
 		  "speed": 5.5
       "pierceCap": 3,
       "pierceBuilding": true,
-      "lightning": 2,
+      "lightning": 5,
       "lightningLength": 3,
-      "lightningDamage": 9,
+      "lightningDamage": 8,
       "lightningLengthRand": 1,
       "lightningColor": "FFDE70FF"
 		  "hitEffect": "flakExplosion",
