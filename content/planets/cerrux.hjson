@@ -1,4 +1,4 @@
-localizedName: Huoxing
+localizedName: Cerrux
 description: Scorching planet, featuring new resources.
 alwaysUnlocked: true
 hidden: false
@@ -82,15 +82,15 @@ generator: {
   radMax: 600
   iceChance: 0.2
   carbonChance: 0.6
-  berylChance: 0
+  berylChance: 0.0
   ferricChance: 0.4
 }
 sectorSize: 3
 orbitSpacing: 1
 allowLaunchToNumbered: false
-defaultEnv: 151
+defaultEnv: 245
 radius: 1.5
-minZoom: 1.4
+minZoom: 1.0
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 drawOrbit: true
@@ -100,16 +100,16 @@ prebuildBase: true
 accessible: true
 updateLighting: true
 sectorSeed: 6
-bloom: true
+bloom: false
 visible: true
 atmosphereColor: 000000
 iconColor: E38654
 hasAtmosphere: true
-allowWaveSimulation: true
+allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 defaultCore: core-foundation
 parent: sun
 solarSystem: sun
 launchCandidates: []
-hiddenItems: ["beryllium", "carbide", "fissile-matter", "oxide", "copper", "pyrite", "lead", "titanium", "phase-fabric", "surge-alloy", "kyanite", "plastanium", "blast-compound", "tungsten", "pyratite"]
+hiddenItems: ["copper", "lead", "graphite", "titanium", "sand", "thorium", "coal", "phase-fabric", "carbide", "tungsten", "oxide", "pyratite", "blast-compound", "spore-pod", "plastanium", "metaglass"]
