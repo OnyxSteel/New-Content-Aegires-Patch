@@ -1,0 +1,115 @@
+localizedName: Huoxing
+description: Scorching planet, featuring new resources.
+alwaysUnlocked: true
+hidden: false
+mesh: [
+{
+  type: NoiseMesh
+  seed: 69
+  divisions: 6
+  color1: 53565C
+  color2: FFCC66
+  radius: 1.1
+  octaves: 4.6
+  persistence: 0.8
+  scale: 1
+  mag: 1.5
+}
+{
+  type: NoiseMesh
+  seed: 69
+  divisions: 6
+  color1: 262626
+  color2: FFFFA3
+  radius: 1.1
+  octaves: 4.6
+  persistence: 0.8
+  scale: 1
+  mag: 1.5
+}
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    //rotate speed 
+    speed: 5
+    divisions: 6
+    //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
+    radius: 0.1
+    //cloud colour
+    color: 787878
+    //more explodey values, they're even more sensitive here
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.43
+  }
+  {
+    type: HexSkyMesh
+    speed: 4
+    divisions: 6
+    radius: 0.11
+    color: 424242
+    octaves: 3
+    persistence: 0.5
+    scl: 0.9
+    thresh: 0.43
+  }
+  {
+    type: HexSkyMesh
+    speed: -2
+    divisions: 5
+    radius: 0.034
+    color: 35bda8
+    octaves: 0.4
+    persistence: 0.2
+    scl: 0.2
+    thresh: 0.4
+  }
+]
+startSector: 23
+generator: {
+  allowLanding: false
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.49
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.2
+  carbonChance: 0.6
+  berylChance: 0
+  ferricChance: 0.4
+}
+sectorSize: 3
+orbitSpacing: 1
+allowLaunchToNumbered: false
+defaultEnv: 151
+radius: 1.5
+minZoom: 1.4
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.35
+prebuildBase: true
+accessible: true
+updateLighting: true
+sectorSeed: 6
+bloom: true
+visible: true
+atmosphereColor: 000000
+iconColor: E38654
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+defaultCore: core-foundation
+parent: sun
+solarSystem: sun
+launchCandidates: []
+hiddenItems: ["beryllium", "carbide", "fissile-matter", "oxide", "copper", "pyrite", "lead", "titanium", "phase-fabric", "surge-alloy", "kyanite", "plastanium", "blast-compound", "tungsten", "pyratite"]
